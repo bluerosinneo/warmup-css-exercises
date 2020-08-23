@@ -1,25 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    height: 230px;
+    width: 230px;
+    margin: auto;
+}
+
 .interior {
     background-color: blue;
     height: 100px;
     width: 100px;
-    position: absolute;
+    position: relative;
 }
 
 .div2 {
     left: 125px;
+    top: -100px;
 }
 
 .div3 {
-    top: 125px;
+    top: -75px;
 }
 
 .div4 {
-    top: 125px;
+    top: -175px;
     left: 125px;
 }
 
 .div5 {
     background-color: red;
-    top: 65.5px;
+    top: -335px;
     left: 65.5px;
 }

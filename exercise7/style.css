@@ -1,0 +1,135 @@
+.interior {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    
+}
+
+.div1 {
+    background-color: red;
+    left: 250px
+}
+
+.div1::after {
+    background-color: red;
+    opacity: 0.75;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    content: ' ';
+    left: -115px;
+}
+
+.div1::before {
+    background-color: red;
+    opacity: 0.40;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    content: ' ';
+    left: -230px
+}
+
+.div2 {
+    background-color: orange;
+    left: 250px;
+    top: 120px;
+}
+
+.div2::after {
+    background-color: orange;
+    opacity: 0.75;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    content: ' ';
+    left: -115px;
+}
+
+.div2::before {
+    background-color: orange;
+    opacity: 0.40;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    content: ' ';
+    left: -230px
+}
+
+.div3 {
+    background-color: yellow;
+    left: 250px;
+    top: 230px;
+}
+
+.div3::after {
+    background-color: yellow;
+    opacity: 0.75;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    content: ' ';
+    left: -115px;
+}
+
+.div3::before {
+    background-color: yellow;
+    opacity: 0.40;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    content: ' ';
+    left: -230px
+}
+
+.div4 {
+    background-color: blue;
+    left: 250px;
+    top: 340px;
+}
+
+.div4::after {
+    background-color: blue;
+    opacity: 0.75;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    content: ' ';
+    left: -115px;
+}
+
+.div4::before {
+    background-color: blue;
+    opacity: 0.40;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    content: ' ';
+    left: -230px
+}
+
+.div5 {
+    background-color: violet;
+    left: 250px;
+    top: 450px;
+}
+
+.div5::after {
+    background-color: violet;
+    opacity: 0.75;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    content: ' ';
+    left: -115px;
+}
+
+.div5::before {
+    background-color: violet;
+    opacity: 0.40;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    content: ' ';
+    left: -230px
+}

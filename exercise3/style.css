@@ -1,0 +1,39 @@
+.interior {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.div2 {
+    left: 125px;
+}
+
+.div1::after {
+    content: '★';
+    background-color: white;
+    border-radius: 50%;
+    border-right: 4px solid white;
+    border-left: 4px solid white;
+    border-bottom: 2px solid white;
+    position: absolute;
+    top: 98px;
+    left: 98px;
+    z-index: 1;
+}
+
+.div3 {
+    top: 125px;
+}
+
+.div4 {
+    top: 125px;
+    left: 125px;
+}
+
+.div5 {
+    background-color: red;
+    top: 66.5px;
+    left: 66.5px;
+    transform: rotate(45deg);
+}
